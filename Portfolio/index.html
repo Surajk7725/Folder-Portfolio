@@ -59,24 +59,31 @@
   <section class="about-us">
     <div class="about">
       <img src="images/suraj.jpeg" alt="Picture of Suraj" class="pic">
-      <div class="text">
-        <h2 class="text-blue-gray text-center">About Me</h2>
-        <h5>I'm Suraj <span>Kumar Tellakula</span></h5>
-        <p>
-          A <strong>dedicated Computer Science student</strong> with a passion for solving <em>real-world problems</em>
-          through <strong>innovative solutions</strong>. I strive to excel as a <strong>Software Development Engineer
-            (SDE)</strong> by constantly honing my skills and embracing new challenges.
-        </p>
-        <p>
-          I thrive on <strong>impactful projects</strong>, driven by <em>curiosity</em> and the excitement of building
-          something <strong>meaningful</strong>—regardless of the skill or domain. For me, <strong>every
-            project</strong> is an opportunity to <em>learn</em>, <em>adapt</em>, and <strong>create</strong>.
-        </p>
-        <p>
-          With a mindset rooted in <strong>continuous growth</strong>, I am eager to collaborate with
-          <em>forward-thinking teams</em> to turn ambitious ideas into reality and contribute to <strong>cutting-edge
-            innovation</strong>.
-        </p>
+      <div class="right-section">
+        <h2 class="about-heading">About Me</h2>
+        <div class="bg-secondary-900 rounded-lg p-6 shadow-soft font-code text-sm overflow-hidden">
+          <div class="flex items-center gap-2 mb-4">
+            <div class="w-3 h-3 bg-error rounded-full"></div>
+            <div class="w-3 h-3 bg-warning rounded-full"></div>
+            <div class="w-3 h-3 bg-success rounded-full"></div>
+            <span class="text-secondary-400 ml-2">portfolio.js</span>
+          </div>
+          <div id="code-animation" class="text-secondary-300 space-y-2">
+            <div class="text-accent">const</div>
+            <div class="ml-4">developer = {</div>
+            <div class="ml-8">name: <span class="text-success">'Suraj Kumar Tellakula'</span>,</div>
+            <div class="ml-8">skills: [<span class="text-success">'MERN'</span>, <span
+                class="text-success">'SpringBoot'</span>, <span class="text-success">'Java'</span>, <span
+                class="text-success">'Git'</span>, <span class="text-success">'MySQL'</span>, <span
+                class="text-success">'JavaScript'</span>, <span class="text-success">'Python'</span>],</div>
+            <div class="ml-8">passion: [<span class="text-success">'Problem-Solving'</span>, <span
+                class="text-success">'Project-Building'</span>, <span class="text-success">'Innovation'</span>],</div>
+            <div class="ml-8">status: <span class="text-success">'Dedicated Computer Science Student'</span>,</div>
+            <div class="ml-8">mission: <span class="text-success">'Aspiring Software Development Engineer (SDE) focused
+                on crafting innovative solutions to real-world problems.'</span></div>
+            <div class="ml-4">};</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -93,70 +100,196 @@
       </p>
     </div>
 
-    <div class="card-row">
+    <div class="grid">
+      <!-- Project 1 -->
       <div class="card">
-        <img src="images/books.png">
-        <div class="card-content">
+        <div class="image-container">
+          <img src="images/books.png" alt="BookHub" loading="lazy" />
+        </div>
+        <div class="content">
           <h3>BookHub</h3>
-          <p class="centered-text">A comprehensive library management system built with the MERN (MongoDB, Express.js,
-            React.js, Node.js) stack.</p>
-          <button class="button-1" onclick="window.open('https://books-frontend-xu1t.onrender.com/', '_blank')">View
-            Details</button>
+          <p>A comprehensive library management system built with the MERN (MongoDB, Express.js, React.js, Node.js)
+            stack.</p>
+          <div class="tags">
+            <span class="tag tag-primary">React</span>
+            <span class="tag tag-primary">Express.js</span>
+            <span class="tag tag-accent">MongoDB</span>
+          </div>
+          <div class="links">
+            <a href="https://books-frontend-xu1t.onrender.com/" class="view-details">
+              View Details
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="https://books-frontend-xu1t.onrender.com/" class="live-demo" target="_blank">
+              Live Demo
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
+      <!-- Project 2 -->
       <div class="card">
-        <img src="images/mail.png">
-        <div class="card-content">
+        <div class="image-container">
+          <img src="images/mail.png" alt="InstaMail" loading="lazy" />
+        </div>
+        <div class="content">
           <h3>InstaMail</h3>
-          <p class="centered-text">A Streamlit-based custom email sender application using the OpenAI API for content
-            generation and email delivery.</p>
-          <button class="button-1" onclick="window.open('https://github.com/Surajk7725/InstaMail', '_blank')">View
-            Details</button>
+          <p>A Streamlit-based custom email sender application using the OpenAI API for content generation and email
+            delivery.</p>
+          <div class="tags">
+            <span class="tag tag-primary">Streamlit</span>
+            <span class="tag tag-success">Python</span>
+            <span class="tag tag-accent">OpenAI API</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/Surajk7725/InstaMail" class="view-details">
+              View Details
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="https://github.com/Surajk7725/InstaMail" class="live-demo" target="_blank">
+              Live Demo
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
+      <!-- Project 3 -->
       <div class="card">
-        <img src="images/prjct-6.png">
-        <div class="card-content">
+        <div class="image-container">
+          <img src="images/prjct-6.png" alt="AcademeX" loading="lazy" />
+        </div>
+        <div class="content">
           <h3>AcademeX</h3>
-          <p class="centered-text">Academic management system for schools or institutions, teachers or professors using
-            Springboot Framework.</p>
-          <button class="button-1" onclick="window.open('https://github.com/Surajk7725/SDP_JFSD', '_blank')">View
-            Details</button>
+          <p>Academic management system for schools or institutions, teachers or professors using Springboot Framework.
+          </p>
+          <div class="tags">
+            <span class="tag tag-primary">Spring Boot</span>
+            <span class="tag tag-success">Java</span>
+            <span class="tag tag-accent">MySQL</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/Surajk7725/SDP_JFSD" class="view-details">
+              View Details
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="https://github.com/Surajk7725/SDP_JFSD" class="live-demo" target="_blank">
+              Live Demo
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
+      <!-- Project 4 -->
       <div class="card">
-        <img src="images/prjct-2.png">
-        <div class="card-content">
+        <div class="image-container">
+          <img src="images/prjct-2.png" alt="DevSync" loading="lazy" />
+        </div>
+        <div class="content">
           <h3>DevSync</h3>
-          <p class="centered-text">DevSync is an interactive application that fetches and displays GitHub user profile
-            information using the GitHub API.</p>
-          <button class="button-1" onclick="window.open('https://dev-sync-github.vercel.app/', '_blank')">View
-            Details</button>
+          <p>DevSync is an interactive application that fetches and displays GitHub user profile information using the
+            GitHub API.</p>
+          <div class="tags">
+            <span class="tag tag-primary">React</span>
+            <span class="tag tag-success">GitHub API</span>
+            <span class="tag tag-accent">JavaScript</span>
+          </div>
+          <div class="links">
+            <a href="https://dev-sync-github.vercel.app/" class="view-details">
+              View Details
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="https://dev-sync-github.vercel.app/" class="live-demo" target="_blank">
+              Live Demo
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
+      <!-- Project 5 -->
       <div class="card">
-        <img src="images/prjct-8.png">
-        <div class="card-content">
+        <div class="image-container">
+          <img src="images/prjct-8.png" alt="Rent Us!" loading="lazy" />
+        </div>
+        <div class="content">
           <h3>Rent Us!</h3>
-          <p class="centered-text">Online platform for renting services, enabling seamless transactions between users
-            and providers with Django.</p>
-          <button class="button-1" onclick="window.open('http://sk7ayanokoji.pythonanywhere.com/', '_blank')">View
-            Details</button>
+          <p>Online platform for renting services, enabling seamless transactions between users and providers with
+            Django.</p>
+          <div class="tags">
+            <span class="tag tag-primary">Django</span>
+            <span class="tag tag-success">Python</span>
+            <span class="tag tag-accent">PostgreSQL</span>
+          </div>
+          <div class="links">
+            <a href="http://sk7ayanokoji.pythonanywhere.com/" class="view-details">
+              View Details
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="http://sk7ayanokoji.pythonanywhere.com/" class="live-demo" target="_blank">
+              Live Demo
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
+      <!-- Project 6 -->
       <div class="card">
-        <img src="images/prjct-3.png">
-        <div class="card-content">
+        <div class="image-container">
+          <img src="images/prjct-3.png" alt="Object Detection" loading="lazy" />
+        </div>
+        <div class="content">
           <h3>Object Detection</h3>
-          <p class="centered-text">Object detection is a computer vision task that involves identifying and locating
-            objects within an image or video stream. </p>
-          <button class="button-1"
-            onclick="window.open('https://github.com/Surajk7725/Object_Detection', '_blank')">View Details</button>
+          <p>Object detection is a computer vision task that involves identifying and locating objects within an image
+            or video stream.</p>
+          <div class="tags">
+            <span class="tag tag-primary">Python</span>
+            <span class="tag tag-success">OpenCV</span>
+            <span class="tag tag-accent">TensorFlow</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/Surajk7725/Object_Detection" class="view-details">
+              View Details
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="https://github.com/Surajk7725/Object_Detection" class="live-demo" target="_blank">
+              Live Demo
+              <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -166,12 +299,16 @@
   <footer class="footer">
     <div>
       <p class="text-center font-normal text-gray-700">
-        &copy; 2024 Tellakula Suraj Kumar | Passionate about Technology and Research.
+        &copy; <span id="year"></span> Tellakula Suraj Kumar | Passionate about Technology and Research.
       </p>
       <button class="button-2" onclick="window.location.href = 'mailto:surajkumar.ayanokoji.7@gmail.com'">MESSAGE
         ME</button>
     </div>
   </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear(); // Automatically update year
+  </script>
 
 </body>
 
