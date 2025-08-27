@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/bookhub",
+      "destination": "/bookhub.html"
+    },
+    {
+      "source": "/academex",
+      "destination": "/academex.html"
+    },
+    {
+      "source": "/devsync",
+      "destination": "/devsync.html"
+    },
+    {
+      "source": "/instamail",
+      "destination": "/instamail.html"
+    },
+    {
+      "source": "/rent-us",
+      "destination": "/rentus.html"
+    },
+    {
+      "source": "/object-detection",
+      "destination": "/object-detection.html"
+    }
+  ]
+}
