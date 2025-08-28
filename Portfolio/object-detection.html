@@ -11,8 +11,326 @@
 </head>
 
 <body>
+    <section class="breadcrumb">
+        <div class="container">
+            <nav>
+                <a href="index.html">Home</a>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span>Object Detection</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="content-container">
+            <div class="container">
+                <div class="grid-container">
+                    <!-- Sidebar -->
+                    <div class="sidebar-container">
+                        <div class="sidebar-content">
+                            <!-- Project Hero Image -->
+                            <div class="hero-image-container">
+                                <img src="images/prjct-3.png" alt="Object Detection" class="hero-image" loading="lazy" />
+                            </div>
+
+                            <!-- Project Title & Info -->
+                            <div class="project-info">
+                                <h1 class="project-title">Object Detection</h1>
+                                <p class="project-description">Object detection is a computer vision task that involves identifying and locating objects within an image or video stream.</p>
+                            </div>
+
+                            <!-- Tech Stack -->
+                            <div class="tech-stack">
+                                <h3 class="tech-stack-title">Tech Stack</h3>
+                                <div class="tech-tags">
+                                    <span class="tech-tag python">Python</span>
+                                    <span class="tech-tag opencv">OpenCV</span>
+                                    <span class="tech-tag numpy">NumPy</span>
+                                    <span class="tech-tag matplotlib">Matplotlib</span>
+                                    <span class="tech-tag tensorflow">Tensorflow</span>
+                                </div>
+                            </div>
+
+                            <!-- Project Links -->
+                            <div class="project-links">
+                                <a href="https://github.com/Surajk7725/Object_Detection" class="btn btn-secondary">
+                                    <svg class="btn-icon" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                    View Source Code
+                                </a>
+                            </div>
+
+                            <!-- Project Stats -->
+                            <div class="stats-card">
+                                <h4 class="stats-title">Project Stats</h4>
+                                <div class="stats-list">
+                                    <div class="stats-item">
+                                        <span class="stats-label">Duration</span>
+                                        <span class="stats-value">1 week</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Team Size</span>
+                                        <span class="stats-value">Solo Project</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Status</span>
+                                        <span class="status-badge">Completed</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Year</span>
+                                        <span class="stats-value">2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Area -->
+                    <div class="content-area">
+                        <!-- Project Overview -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Project Overview</h2>
+                            <div class="prose mt-6">
+                                <div class="overview-text">
+                                    <p> This project implements a streamlined object detection system using Python and the OpenCV library, 
+                                        harnessing the power of a pre-trained Single Shot MultiBox Detector (SSD) model with a MobileNetV3 backbone.
+                                        The SSD architecture, known for its efficiency, allows for  rapid identification and 
+                                        positioning of objects in images, making it suitable for environments with limited 
+                                        resources. The code begins by loading the model’s configuration and weights, sourced from the 
+                                        TensorFlow Object Detection API via a GitHub link, along with class labels stored in a text 
+                                        file, to prepare for detection tasks.</p>
+                                    <p>The system handles an input image by executing preprocessing steps, applies a confidence threshold to
+                                        filter detections, and visualizes results by drawing bounding boxes and labels around detected objects, 
+                                        such as people in a sample image. Created for user-friendliness,it enables quick setup and testing on 
+                                        static images, making it accessible for beginners exploring computer vision. Despite its simplicity, 
+                                        the architecture supports real-time applications, offering scalability for video streams
+                                        or bigger datasets, thereby showcasing both educational value and practical utility.
+                                    </p>
+                                </div>
+                                <span class="read-more" onclick="toggleOverview()">Read More</span>
+                            </div>
+                        </div>
+
+                        <!-- Technical Highlights -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Technical Highlights</h2>
+                            <div class="technical-grid mt-6">
+                                <div class="technical-card">
+                                    <h4 class="text-lg font-semibold" style="color: var(--primary);">Performance
+                                        Optimization</h4>
+                                    <ul class="technical-list mt-3" style="color: var(--text-secondary);">
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Lightweight MobileNetV3 CNN backbone
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Efficient 320x320 input size
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Optimized DNN inference speed
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Low-latency single-shot detection
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="technical-card">
+                                    <h4 class="text-lg font-semibold" style="color: var(--primary);">Security Features
+                                    </h4>
+                                    <ul class="technical-list mt-3" style="color: var(--text-secondary);">
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Input data validation checks
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Secure model file loading
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Confidence threshold filtering
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Isolated environment execution
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Gallery -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Project Gallery</h2>
+                            <div class="gallery-grid mt-6">
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--primary-100), #bfdbfe);">
+                                    <img src="details/object-1.png" alt="Before Detection" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--success-100), #bbf7d0);">
+                                    <img src="details/object-2.png" alt="After Object Detection" loading="lazy" />
+                                </div>
+                            </div>
+                        </div>
 
 
+                        <!-- Frequency Asked Questions -->
+                        <div class="faq-container">
+                            <h2 class="faq-title">Frequently Asked Questions</h2>
+                            <div class="faq-items">
+                                <!-- FAQ Item 1 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-1">
+                                        <h3 class="faq-question">How did you implement object detection with Python and OpenCV, 
+                                            and which algorithms or techniques did you use?</h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-1" class="faq-content">
+                                        <p>
+                                            I started by importing necessary libraries: NumPy for array handling, OpenCV for 
+                                            core computer vision tasks, and Matplotlib for visualization. I specified the 
+                                            model files—a configuration file <code>ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt</code>
+                                            and frozen weights <code>frozen_inference_graph.pb</code> —downloaded from the TensorFlow Object 
+                                            Detection API on GitHub. Using OpenCV's DNN module, I created a DetectionModel instance 
+                                            to load these. Next, I loaded 80 class labels from a <code>Labels.txt</code> file (based on the COCO dataset).
+                                        </p>
+                                        <p>
+                                            I configured the model's input parameters: resizing to 320x320 pixels, scaling pixel values by 
+                                            1.0/127.5, setting a mean subtraction of [127.5, 127.5, 127.5] for normalization, and enabling 
+                                            RGB swapping since OpenCV uses BGR by default. For detection, I read a sample image <code>7.jpg</code>
+                                            with <code>cv2.imread</code>, ran the model's detect method with a 0.5 confidence threshold to get class indices, 
+                                            confidences, and bounding boxes.
+                                        </p>
+                                        <p>
+                                            The key algorithm is SSD, a single-stage detector that predicts bounding boxes and classes directly 
+                                            from feature maps, combined with MobileNetV3 for efficient convolution operations and depthwise separable 
+                                            convolutions to reduce computational load. Finally, I drew rectangles around detected objects ( using <code>cv2.rectangle</code> ) 
+                                            and added text labels ( via <code>cv2.putText</code> ) before displaying the annotated image with Matplotlib after color conversion.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 2 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-2">
+                                        <h3 class="faq-question">What was the biggest challenge in your object detection project, 
+                                            and how did you solve it? </h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-2" class="faq-content">
+                                        <p>
+                                            The main challenge in the object detection project was ensuring correct model input preprocessing, 
+                                            as improper normalization led to inaccurate detections. The SSD MobileNetV3 model initially output 
+                                            low-confidence or incorrect bounding boxes, like misidentifying or missing people in the sample image, 
+                                            due to a mismatch in the expected input format and the applied preprocessing.
+                                        </p>
+                                        <p>
+                                            To address this, I reviewed the TensorFlow documentation to understand the model's requirements and 
+                                            watched related YouTube videos for practical insights. Additionally, I studied GitHub discussions 
+                                            where other users had encountered similar preprocessing issues. Based on these resources, I adjusted 
+                                            the input parameters in the code: setting the scale to 1.0/127.5, applying a mean subtraction of 
+                                            [127.5, 127.5, 127.5], and enabling SwapRB to account for OpenCV’s BGR format. After testing with 
+                                            the sample image, these changes resolved the issue, resulting in reliable detections, including the correct 
+                                            identification of multiple instances of class index 1 (persons) with accurate bounding boxes.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 3 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-3">
+                                        <h3 class="faq-question">How did you make your object detection system efficient and scalable for real-world use, 
+                                            handling real-time detection or large datasets?</h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-3" class="faq-content">
+                                        <p>
+                                            To ensure efficiency, I selected the MobileNetV3 backbone, which is lightweight and optimized 
+                                            for speed on resource-constrained devices, paired with SSD for fast single-stage detection. 
+                                            The input size of 320x320 pixels strikes a balance between accuracy and performance, while 
+                                            OpenCV’s DNN module utilizes hardware acceleration, such as CPU or GPU when available, to 
+                                            enhance processing speed. This setup enabled real-time detection on videos, achieving 
+                                            approximately 20-30 FPS on standard hardware, as expected from MobileNetV3’s efficient design.
+                                        </p>
+                                        <p>
+                                            For scalability, I designed the code to be modular, allowing easy adaptation from single-image 
+                                            processing with <code>cv2.imread</code> to video streams using <code>cv2.VideoCapture</code> for frame-by-frame analysis. 
+                                            For large datasets, the system can be extended with batch processing through loops over image 
+                                            folders. In testing, the system efficiently processed a sample image, detecting multiple objects 
+                                            with a 0.5 confidence threshold to filter noise, making it suitable for applications like surveillance 
+                                            or autonomous systems.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="navigation-buttons">
+                <a href="index.html" class="btn btn-secondary">
+                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Back
+                </a>
+                <a href="bookhub.html" class="btn btn-secondary">
+                    Next Project
+                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </section>
 
     <footer class="footer">
         <div>
@@ -26,5 +344,4 @@
 
     <script src="details.js"></script>
 </body>
-
 </html>

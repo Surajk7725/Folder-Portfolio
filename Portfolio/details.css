@@ -46,7 +46,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--text-secondary);
 }
 
@@ -165,7 +165,7 @@ body {
 
 .project-description {
     color: var(--text-secondary);
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 /* Tech Stack */
@@ -329,7 +329,7 @@ body {
     margin-bottom: 0.75rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .overview-text {
@@ -344,7 +344,7 @@ body {
     cursor: pointer;
     margin-top: 0.5rem;
     font-weight: 500;
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .overview-text.expanded {
@@ -373,7 +373,7 @@ body {
 
 .technical-grid {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 @media (min-width: 1024px) {
@@ -388,7 +388,7 @@ body {
     gap: 0.25rem;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .technical-list svg {
@@ -399,7 +399,7 @@ body {
 
 .gallery-grid {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -501,7 +501,7 @@ body {
 .faq-content p {
     color: var(--text-secondary);
     margin-bottom: 0.75rem;
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .faq-content ul {
@@ -668,4 +668,56 @@ body {
     cursor: pointer;
     border-radius: 10px;
     margin-left: auto;
+}
+
+code {
+    color: #f0f5f6;
+    background-color: #0c0c0c;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.tech-tag.python {
+    color: #3776AB;
+    background-color: var(--primary-100); 
+}
+
+.tech-tag.streamlit {
+    color: #FF4B4B;
+    background-color: var(--secondary-100); 
+}
+
+.tech-tag.openai {
+    color: #10A37F;
+    background-color: var(--success-100); 
+}
+
+.tech-tag.mailjet {
+    color: #0072C6;
+    background-color: var(--primary-200); 
+}
+
+.tech-tag.pandas {
+    color: #2E7D32;
+    background-color: var(--success-100); 
+}
+
+.tech-tag.opencv {
+    color: #B22222;
+    background-color: var(--warning-100);
+}
+
+.tech-tag.numpy {
+    color: #4D77CF;
+    background-color: var(--primary-100); 
+}
+
+.tech-tag.matplotlib {
+    color: #11557C;
+    background-color: var(--secondary-100); 
+}
+
+.tech-tag.tensorflow {
+    color: #FF6F00;
+    background-color: var(--warning-100); 
 }
