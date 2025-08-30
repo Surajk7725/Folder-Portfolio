@@ -721,3 +721,13 @@ code {
     color: #FF6F00;
     background-color: var(--warning-100); 
 }
+
+.tech-tag.githubapi {
+    color: #FFFFFF;
+    background-color: #24292E;
+}
+
+.tech-tag.axios {
+    color: #5A29E4;
+    background-color: #F7F7F7;
+}

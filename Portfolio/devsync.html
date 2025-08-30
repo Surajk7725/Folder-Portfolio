@@ -11,8 +11,312 @@
 </head>
 
 <body>
+  <!-- Breadcrumb Navigation -->
+    <section class="breadcrumb">
+        <div class="container">
+            <nav>
+                <a href="index.html">Home</a>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span>DevSync</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="content-container">
+            <div class="container">
+                <div class="grid-container">
+                    <!-- Sidebar -->
+                    <div class="sidebar-container">
+                        <div class="sidebar-content">
+                            <!-- Project Hero Image -->
+                            <div class="hero-image-container">
+                                <img src="images/prjct-2.png" alt="DevSync" class="hero-image" loading="lazy" />
+                            </div>
+
+                            <!-- Project Title & Info -->
+                            <div class="project-info">
+                                <h1 class="project-title">DevSync</h1>
+                                <p class="project-description">DevSync is an interactive application that fetches and displays GitHub user profile information using the
+                                    GitHub API.</p>
+                            </div>
+
+                            <!-- Tech Stack -->
+                            <div class="tech-stack">
+                                <h3 class="tech-stack-title">Tech Stack</h3>
+                                <div class="tech-tags">
+                                    <span class="tech-tag react">React</span>
+                                    <span class="tech-tag githubapi">GitHub API</span>
+                                    <span class="tech-tag axios">Axios</span>
+                                </div>
+                            </div>
+
+                            <!-- Project Links -->
+                            <div class="project-links">
+                                <a href="https://dev-sync-github.vercel.app/" class="btn btn-primary">
+                                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                    View Live Demo
+                                </a>
+                                <a href="https://github.com/Surajk7725/DevSync" class="btn btn-secondary">
+                                    <svg class="btn-icon" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                    View Source Code
+                                </a>
+                            </div>
+
+                            <!-- Project Stats -->
+                            <div class="stats-card">
+                                <h4 class="stats-title">Project Stats</h4>
+                                <div class="stats-list">
+                                    <div class="stats-item">
+                                        <span class="stats-label">Duration</span>
+                                        <span class="stats-value">2 weeks</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Team Size</span>
+                                        <span class="stats-value">Solo Project</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Status</span>
+                                        <span class="status-badge">Completed</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Year</span>
+                                        <span class="stats-value">2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Area -->
+                    <div class="content-area">
+                        <!-- Project Overview -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Project Overview</h2>
+                            <div class="prose mt-6">
+                                <div class="overview-text">
+                                    <p>
+                                      DevSync is a sleek web application designed to fetch and display GitHub user profile details in 
+                                      real-time using the GitHub API. Users can input a GitHub username to view key information like the 
+                                      user's avatar, bio, repository list, follower count, and following count, all presented in a clean, 
+                                      responsive interface. 
+                                    </p>
+                                    <p>
+                                      Built with React, the app leverages Axios for API calls and styled components for a polished UI, ensuring 
+                                      seamless interaction across devices. It’s ideal for developers or enthusiasts wanting to quickly explore GitHub profiles 
+                                      without navigating the GitHub site directly, combining simplicity with real-time data retrieval.
+                                    </p>
+                                </div>
+                                <span class="read-more" onclick="toggleOverview()">Read More</span>
+                            </div>
+                        </div>
+
+                        <!-- Technical Highlights -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Technical Highlights</h2>
+                            <div class="technical-grid mt-6">
+                                <div class="technical-card">
+                                    <h4 class="text-lg font-semibold" style="color: var(--primary);">Performance
+                                        Optimization</h4>
+                                    <ul class="technical-list mt-3" style="color: var(--text-secondary);">
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Asynchronous API fetching
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Minimal state updates
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Lightweight React components
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="technical-card">
+                                    <h4 class="text-lg font-semibold" style="color: var(--primary);">Security Features
+                                    </h4>
+                                    <ul class="technical-list mt-3" style="color: var(--text-secondary);">
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Safe API requests
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Error handling robustness
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Input sanitization practices
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Gallery -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Project Gallery</h2>
+                            <div class="gallery-grid mt-6">
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--primary-100), #bfdbfe);">
+                                    <img src="details/devsync-1.jpg" alt="Start Page" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--success-100), #bbf7d0);">
+                                    <img src="details/devsync-4.png" alt="Searching an user" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--accent-100), #e9d5ff);">
+                                    <img src="details/devsync-2.png" alt="Basic Details" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--secondary-100), #d1d5db);">
+                                    <img src="details/devsync-3.png" alt="Repo Details" loading="lazy" />
+                                </div>
+                            </div>
+                        </div>
 
 
+                        <!-- Frequency Asked Questions -->
+                        <div class="faq-container">
+                            <h2 class="faq-title">Frequently Asked Questions</h2>
+                            <div class="faq-items">
+                                <!-- FAQ Item 1 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-1">
+                                        <h3 class="faq-question">How did you implement DevSync’s GitHub API integration and UI?
+                                        </h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-1" class="faq-content">
+                                        <p>
+                                            I built DevSync using React to create a dynamic, component-based UI, with a main App component 
+                                            managing state for the username, user data, and repositories using the useState hook. For GitHub API 
+                                            integration, I used Axios to make asynchronous GET requests to fetch user profile data 
+                                            ( <code>https://api.github.com/users/{username}</code> ) and repository details ( <code>https://api.github.com/users/{username}/repos</code> ).
+                                        </p>
+                                        <p>
+                                            The UI includes a styled input field ( <code>InputStyles</code> ) for entering usernames and a 
+                                            button ( <code>ButtonStyles</code> ) to trigger the API calls, with <code>GlobalStyle</code> and 
+                                            <code>AppStyles</code> ensuring a consistent, responsive design via CSS-in-JS. The <code>UserInfo</code> 
+                                            and <code>Repos</code> components conditionally render the fetched data, displaying profile details 
+                                            and repository links only when available, while error handling catches API failures, ensuring a smooth 
+                                            user experience across mobile and desktop.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 2 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-2">
+                                        <h3 class="faq-question">What was the biggest challenge in developing DevSync, and how did you solve it?
+                                        </h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-2" class="faq-content">
+                                        <p>
+                                            The main challenge in DevSync was styling UI components with CSS-in-JS, as misaligned elements, 
+                                            inconsistent colors, and unresponsive layouts made the app look unprofessional, like header text 
+                                            blending into backgrounds or inputs not resizing on mobile. I fixed this by using Chrome Dev Tools to test 
+                                            and adjust styles like <code>background-color</code> and <code>color</code> in real-time, referencing 
+                                            MDN Web Docs, W3 Schools and Stack Overflow for responsive design best practices.
+                                        </p>
+                                        <p>
+                                          Additionally, when switching from one GitHub username to another, the <code>repoData</code> state wasn't 
+                                          updating correctly and kept displaying the previous user's repositories due to stale state in the 
+                                          <code>fetchData</code> function. I fixed this by ensuring the <code>setRepoData</code> hook cleared old data 
+                                          on each search, using <code>async-await</code> properly in Axios calls and adding dependency checks in <code>useEffect</code> 
+                                          (though simplified in the sample code), which made the app refresh accurately and handle sequential searches without caching issues.
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 3 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-3">
+                                        <h3 class="faq-question">How did you ensure DevSync was scalable and user-friendly for real-world use?</h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-3" class="faq-content">
+                                        <p>
+                                            To make DevSync scalable, I used React’s component-based structure, splitting the UI into 
+                                            reusable <code>UserInfo</code> and <code>Repos</code> components to efficiently handle large datasets, 
+                                            like users with many repositories, without slowing down. Axios’s async API calls reduce delays, 
+                                            fetching data only when needed, and minimal state updates prevent performance issues.
+                                        </p>
+                                        <p>
+                                          For user-friendliness in real-world use, I designed a simple interface with a clear input field and 
+                                          search button, ensuring easy navigation for non-technical users. Responsive styling with CSS-in-JS 
+                                          adapts the layout for mobile and desktop, while error handling catches invalid usernames or API failures,
+                                          keeping the app reliable and intuitive for everyday use.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="navigation-buttons">
+                <a href="index.html" class="btn btn-secondary">
+                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Back
+                </a>
+                <a href="rentus.html" class="btn btn-secondary">
+                    Next Project
+                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </section>
 
     <footer class="footer">
         <div>
