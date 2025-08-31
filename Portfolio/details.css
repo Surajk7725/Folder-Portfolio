@@ -221,6 +221,106 @@ body {
     color: var(--warning);
 }
 
+.tech-tag.tailwind-css {
+    color: #38B2AC; 
+    background-color: var(--secondary-100); 
+}
+
+.tech-tag.python {
+    color: #3776AB;
+    background-color: var(--primary-100); 
+}
+
+.tech-tag.streamlit {
+    color: #FF4B4B;
+    background-color: var(--secondary-100); 
+}
+
+.tech-tag.openai {
+    color: #10A37F;
+    background-color: var(--success-100); 
+}
+
+.tech-tag.mailjet {
+    color: #0072C6;
+    background-color: var(--primary-200); 
+}
+
+.tech-tag.pandas {
+    color: #2E7D32;
+    background-color: var(--success-100); 
+}
+
+.tech-tag.opencv {
+    color: #B22222;
+    background-color: var(--warning-100);
+}
+
+.tech-tag.numpy {
+    color: #4D77CF;
+    background-color: var(--primary-100); 
+}
+
+.tech-tag.matplotlib {
+    color: #11557C;
+    background-color: var(--secondary-100); 
+}
+
+.tech-tag.tensorflow {
+    color: #FF6F00;
+    background-color: var(--warning-100); 
+}
+
+.tech-tag.githubapi {
+    color: #FFFFFF;
+    background-color: #24292E;
+}
+
+.tech-tag.axios {
+    color: #5A29E4;
+    background-color: #F7F7F7;
+}
+
+.tech-tag.django {
+    color: #092E20;
+    background-color: #E6F3E6;
+}
+
+.tech-tag.html {
+    color: #E34F26;
+    background-color: #F9E6E2;
+}
+
+.tech-tag.css {
+    color: #264DE4;
+    background-color: #E6ECF9;
+}
+
+.tech-tag.javascript {
+    color: #F7DF1E;
+    background-color: #FFF9E6;
+}
+
+.tech-tag.bootstrap {
+    color:  #7952B3;
+    background-color: #F5F0FA;
+}
+
+.tech-tag.mysql {
+    color: #00758F;
+    background-color: #E6F5FA;
+}
+
+.tech-tag.spring-boot {
+    color: #6DB33F; 
+    background-color: var(--secondary-100); 
+}
+
+.tech-tag.microservices {
+    color: #6200EA; 
+    background-color: var(--accent-100); 
+}
+
 /* Project Links */
 .project-links {
     display: flex;
@@ -675,59 +775,4 @@ code {
     background-color: #0c0c0c;
     padding: 2px 4px;
     border-radius: 3px;
-}
-
-.tech-tag.python {
-    color: #3776AB;
-    background-color: var(--primary-100); 
-}
-
-.tech-tag.streamlit {
-    color: #FF4B4B;
-    background-color: var(--secondary-100); 
-}
-
-.tech-tag.openai {
-    color: #10A37F;
-    background-color: var(--success-100); 
-}
-
-.tech-tag.mailjet {
-    color: #0072C6;
-    background-color: var(--primary-200); 
-}
-
-.tech-tag.pandas {
-    color: #2E7D32;
-    background-color: var(--success-100); 
-}
-
-.tech-tag.opencv {
-    color: #B22222;
-    background-color: var(--warning-100);
-}
-
-.tech-tag.numpy {
-    color: #4D77CF;
-    background-color: var(--primary-100); 
-}
-
-.tech-tag.matplotlib {
-    color: #11557C;
-    background-color: var(--secondary-100); 
-}
-
-.tech-tag.tensorflow {
-    color: #FF6F00;
-    background-color: var(--warning-100); 
-}
-
-.tech-tag.githubapi {
-    color: #FFFFFF;
-    background-color: #24292E;
-}
-
-.tech-tag.axios {
-    color: #5A29E4;
-    background-color: #F7F7F7;
 }

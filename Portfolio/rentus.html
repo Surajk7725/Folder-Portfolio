@@ -11,6 +11,309 @@
 </head>
 
 <body>
+   <!-- Breadcrumb Navigation -->
+    <section class="breadcrumb">
+        <div class="container">
+            <nav>
+                <a href="index.html">Home</a>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span>Rent Us!</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="content-container">
+            <div class="container">
+                <div class="grid-container">
+                    <!-- Sidebar -->
+                    <div class="sidebar-container">
+                        <div class="sidebar-content">
+                            <!-- Project Hero Image -->
+                            <div class="hero-image-container">
+                                <img src="images/prjct-8.png" alt="Rent Us!" class="hero-image" loading="lazy" />
+                            </div>
+
+                            <!-- Project Title & Info -->
+                            <div class="project-info">
+                                <h1 class="project-title">Rent Us!</h1>
+                                <p class="project-description">Online platform for renting services, enabling seamless transactions between users and providers with
+                                    Django.</p>
+                            </div>
+
+                            <!-- Tech Stack -->
+                            <div class="tech-stack">
+                                <h3 class="tech-stack-title">Tech Stack</h3>
+                                <div class="tech-tags">
+                                    <span class="tech-tag python">Python</span>
+                                    <span class="tech-tag django">Django</span>
+                                    <span class="tech-tag html">HTML</span>
+                                    <span class="tech-tag css">CSS</span>
+                                    <span class="tech-tag javascript">JavaScript</span>
+                                    <span class="tech-tag bootstrap">Bootstrap</span>
+                                    <span class="tech-tag mysql">MySQL</span>
+                                </div>
+                            </div>
+
+                            <!-- Project Links -->
+                            <div class="project-links">
+                                <a href="http://sk7ayanokoji.pythonanywhere.com/" class="btn btn-primary">
+                                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                    View Live Demo
+                                </a>
+                                <a href="https://github.com/Surajk7725/SDP_PFSD" class="btn btn-secondary">
+                                    <svg class="btn-icon" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                    View Source Code
+                                </a>
+                            </div>
+
+                            <!-- Project Stats -->
+                            <div class="stats-card">
+                                <h4 class="stats-title">Project Stats</h4>
+                                <div class="stats-list">
+                                    <div class="stats-item">
+                                        <span class="stats-label">Duration</span>
+                                        <span class="stats-value">2 months</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Team Size</span>
+                                        <span class="stats-value">3 Members</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Status</span>
+                                        <span class="status-badge">Completed</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Year</span>
+                                        <span class="stats-value">2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Area -->
+                    <div class="content-area">
+                        <!-- Project Overview -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Project Overview</h2>
+                            <div class="prose mt-6">
+                                <div class="overview-text">
+                                    <p>
+                                        Rent Us! is a web-based rental management platform built with Django, designed to simplify 
+                                        renting vehicles like bikes, vans, and cars. It offers a user-friendly interface for users to 
+                                        browse, rent, and pay for vehicles, while owners can list their vehicles and track rentals. 
+                                        Admins have access to comprehensive dashboards showing rental histories, user activity, and owner profits.  
+                                    </p>
+                                    <p>
+                                        Key features include user authentication, role-based access (User, Owner, Admin), CRUD operations for managing vehicles 
+                                        and users, payment integration, and a contact system for resolving disputes. The app uses SQLite locally and MySQL for 
+                                        deployment on PythonAnywhere, ensuring scalability and responsiveness  across devices with Bootstrap-enhanced styling.
+                                    </p>
+                                </div>
+                                <span class="read-more" onclick="toggleOverview()">Read More</span>
+                            </div>
+                        </div>
+
+                        <!-- Technical Highlights -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Technical Highlights</h2>
+                            <div class="technical-grid mt-6">
+                                <div class="technical-card">
+                                    <h4 class="text-lg font-semibold" style="color: var(--primary);">Performance
+                                        Optimization</h4>
+                                    <ul class="technical-list mt-3" style="color: var(--text-secondary);">
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Efficient Django ORM queries
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Lightweight SQLite/MySQL backend
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Responsive Bootstrap styling
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="technical-card">
+                                    <h4 class="text-lg font-semibold" style="color: var(--primary);">Security Features
+                                    </h4>
+                                    <ul class="technical-list mt-3" style="color: var(--text-secondary);">
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Robust user authentication
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Role-based access control
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Input validation mechanisms
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Gallery -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Project Gallery</h2>
+                            <div class="gallery-grid mt-6">
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--primary-100), #bfdbfe);">
+                                    <img src="details/rentus-1.png" alt="Display All Rental Vehicles" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--success-100), #bbf7d0);">
+                                    <img src="details/rentus-2.png" alt="Filling User Details" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--accent-100), #e9d5ff);">
+                                    <img src="details/rentus-3.png" alt="Price Estimation Details" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--secondary-100), #d1d5db);">
+                                    <img src="details/rentus-4.png" alt="Admin Page" loading="lazy" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Frequency Asked Questions -->
+                        <div class="faq-container">
+                            <h2 class="faq-title">Frequently Asked Questions</h2>
+                            <div class="faq-items">
+                                <!-- FAQ Item 1 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-1">
+                                        <h3 class="faq-question">How did your team design and implement the Rent Us! application using Django?
+                                        </h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-1" class="faq-content">
+                                        <p>
+                                            My team designed Rent Us! by leveraging Django’s robust framework to create a modular, role-based system 
+                                            for users, owners, and admins. We used Django’s authentication system for secure login and role management, 
+                                            defining models for vehicles (bikes, vans, cars), rentals, and users, with MySQL for production and SQLite for 
+                                            development. The frontend was built with HTML, CSS, and Bootstrap for responsive layouts, enhanced by JavaScript 
+                                            for dynamic interactions like price calculations based on rental days.
+                                        </p>
+                                        <p>
+                                            CRUD operations were implemented via Django views and templates, while admin dashboards used Django’s admin 
+                                            interface to display rental histories and profits. Payment integration was added using a third-party API 
+                                            (assumed, as not specified in the code), and a contact form was included to handle disputes, ensuring a 
+                                            seamless experience across all user roles. 
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 2 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-2">
+                                        <h3 class="faq-question">What was the biggest challenge your team faced in Rent Us!, and how did you address it?
+                                        </h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-2" class="faq-content">
+                                        <p>
+                                           The main challenge in Rent Us! was managing reliable database connections across MySQL, SQLite, MongoDB, and PostgreSQL, 
+                                           as varying configurations caused connection failures and disrupted rental and user data access. 
+                                           We created a backup project to test configurations, standardized on MySQL for production and SQLite for development, 
+                                           and used Django’s settings module to simplify switching, testing thoroughly to ensure stable integration.
+                                        </p>
+                                        <p>
+                                            Another issue was Stripe payment integration, where API errors and incomplete transaction flows blocked secure payments. 
+                                            We pivoted to a manual payment system using HTML input forms, securely storing details in Django’s admin database with 
+                                            validation, maintaining functionality while planning to revisit Stripe with better testing later.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 3 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-3">
+                                        <h3 class="faq-question">How did your team ensure Rent Us! was scalable and secure for real-world use?</h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-3" class="faq-content">
+                                        <p>
+                                            To ensure scalability, we used Django’s efficient ORM for optimized database queries and switched 
+                                           to MySQL for production on PythonAnywhere, which handles larger datasets better than SQLite. 
+                                           The modular design with separate models for users, vehicles, and rentals allows easy scaling for 
+                                           more vehicle types or users, while Bootstrap ensures a responsive UI for various devices.
+                                        </p>
+                                        <p>
+                                            For security, we implemented Django’s authentication system with password hashing, role-based access 
+                                            to restrict actions (e.g., only admins view profit data), and input validation to prevent injection attacks.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="navigation-buttons">
+                <a href="index.html" class="btn btn-secondary">
+                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Back
+                </a>
+                <a href="object-detection.html" class="btn btn-secondary">
+                    Next Project
+                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </section>
 
 
 

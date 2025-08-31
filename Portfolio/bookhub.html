@@ -11,6 +11,307 @@
 </head>
 
 <body>
+   <!-- Breadcrumb Navigation -->
+    <section class="breadcrumb">
+        <div class="container">
+            <nav>
+                <a href="index.html">Home</a>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <span>BookHub</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="content-container">
+            <div class="container">
+                <div class="grid-container">
+                    <!-- Sidebar -->
+                    <div class="sidebar-container">
+                        <div class="sidebar-content">
+                            <!-- Project Hero Image -->
+                            <div class="hero-image-container">
+                                <img src="images/books.png" alt="BookHub" class="hero-image" loading="lazy" />
+                            </div>
+
+                            <!-- Project Title & Info -->
+                            <div class="project-info">
+                                <h1 class="project-title">BookHub</h1>
+                                <p class="project-description">A comprehensive library management system built with the MERN (MongoDB, Express.js, React.js, Node.js)
+                                     stack.</p>
+                            </div>
+
+                            <!-- Tech Stack -->
+                            <div class="tech-stack">
+                                <h3 class="tech-stack-title">Tech Stack</h3>
+                                <div class="tech-tags">
+                                    <span class="tech-tag react">React</span>
+                                    <span class="tech-tag node">Node.js</span>
+                                    <span class="tech-tag mongodb">MongoDB</span>
+                                    <span class="tech-tag express">Express.js</span>
+                                    <span class="tech-tag tailwind-css">Tailwind CSS</span>
+                                    <span class="tech-tag redux">Redux</span>
+                                </div>
+                            </div>
+
+                            <!-- Project Links -->
+                            <div class="project-links">
+                                <a href="https://books-frontend-xu1t.onrender.com/" class="btn btn-primary">
+                                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                    View Live Demo
+                                </a>
+                                <a href="https://github.com/Surajk7725/Books" class="btn btn-secondary">
+                                    <svg class="btn-icon" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                    View Source Code
+                                </a>
+                            </div>
+
+                            <!-- Project Stats -->
+                            <div class="stats-card">
+                                <h4 class="stats-title">Project Stats</h4>
+                                <div class="stats-list">
+                                    <div class="stats-item">
+                                        <span class="stats-label">Duration</span>
+                                        <span class="stats-value">3 months</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Team Size</span>
+                                        <span class="stats-value">Solo Project</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Status</span>
+                                        <span class="status-badge">Completed</span>
+                                    </div>
+                                    <div class="stats-item">
+                                        <span class="stats-label">Year</span>
+                                        <span class="stats-value">2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Area -->
+                    <div class="content-area">
+                        <!-- Project Overview -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Project Overview</h2>
+                            <div class="prose mt-6">
+                                <div class="overview-text">
+                                    <p>
+
+
+                                    </p>
+                                    <p>
+
+
+                                    </p>
+                                </div>
+                                <span class="read-more" onclick="toggleOverview()">Read More</span>
+                            </div>
+                        </div>
+
+                        <!-- Technical Highlights -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Technical Highlights</h2>
+                            <div class="technical-grid mt-6">
+                                <div class="technical-card">
+                                    <h4 class="text-lg font-semibold" style="color: var(--primary);">Performance
+                                        Optimization</h4>
+                                    <ul class="technical-list mt-3" style="color: var(--text-secondary);">
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Implemented lazy loading for product images
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Redis caching for frequently accessed data
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Database indexing for search optimization
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Code splitting and bundle optimization
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="technical-card">
+                                    <h4 class="text-lg font-semibold" style="color: var(--primary);">Security Features
+                                    </h4>
+                                    <ul class="technical-list mt-3" style="color: var(--text-secondary);">
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            JWT authentication with refresh tokens
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Input validation and sanitization
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            Rate limiting and DDoS protection
+                                        </li>
+                                        <li>
+                                            <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
+                                                fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            HTTPS enforcement and CORS configuration
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Gallery -->
+                        <div class="overview-container">
+                            <h2 class="text-3xl font-bold" style="color: var(--primary);">Project Gallery</h2>
+                            <div class="gallery-grid mt-6">
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--primary-100), #bfdbfe);">
+                                    <img src="details/book-1.jpeg" alt="Landing Page" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--success-100), #bbf7d0);">
+                                    <img src="details/book-2.jpeg" alt="Display All Books" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--accent-100), #e9d5ff);">
+                                    <img src="details/book-3.jpg" alt="Writing and Reviewing a Book" loading="lazy" />
+                                </div>
+                                <div class="gallery-item"
+                                    style="background: linear-gradient(to bottom right, var(--secondary-100), #d1d5db);">
+                                    <img src="details/book-4.jpg" alt="Admin Page" loading="lazy" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Frequency Asked Questions -->
+                        <div class="faq-container">
+                            <h2 class="faq-title">Frequently Asked Questions</h2>
+                            <div class="faq-items">
+                                <!-- FAQ Item 1 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-1">
+                                        <h3 class="faq-question">What was the biggest technical challenge you faced?
+                                        </h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-1" class="faq-content">
+                                        <p>
+                                            
+                                        </p>
+                                        <p>
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 2 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-2">
+                                        <h3 class="faq-question">How did you optimize the application for performance?
+                                        </h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-2" class="faq-content">
+                                        <p>
+                                            
+                                        </p>
+                                        <p>
+
+
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ Item 3 -->
+                                <div class="faq-card">
+                                    <button class="faq-toggle" data-target="faq-3">
+                                        <h3 class="faq-question">What did you learn from this project?</h3>
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <div id="faq-3" class="faq-content">
+                                        <p>
+                                            
+                                        </p>
+                                        <p>
+
+
+
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="navigation-buttons">
+                <a href="index.html" class="btn btn-secondary">
+                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Back
+                </a>
+                <a href="instamail.html" class="btn btn-secondary">
+                    Next Project
+                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </section>
 
 
 
