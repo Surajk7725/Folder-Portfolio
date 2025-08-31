@@ -108,12 +108,18 @@
                             <div class="prose mt-6">
                                 <div class="overview-text">
                                     <p>
-
-
+                                        BookHub is a comprehensive library management system built with the MERN stack 
+                                        (MongoDB, Express.js, React.js, Node.js) to provide a seamless platform for book enthusiasts, 
+                                        authors, and library staff. Users can browse, download, rate, and review books, manage 
+                                        personal notes in a Notion-like environment, and bookmark favorites, while admins oversee books, 
+                                        users, and activity via a dashboard.
                                     </p>
                                     <p>
-
-
+                                        The system supports aspiring authors by allowing them to draft and publish novels, with features 
+                                        like file uploads (via Multer) for books and images, email notifications (via Nodemailer) for updates, 
+                                        and secure authentication (via JWT). Tailwind CSS ensures a responsive, modern UI, and MongoDB handles
+                                        flexible data storage, making BookHub an intuitive and feature-rich platform for real-world library and 
+                                        publishing needs.
                                     </p>
                                 </div>
                                 <span class="read-more" onclick="toggleOverview()">Read More</span>
@@ -133,28 +139,28 @@
                                                 fill="currentColor" viewBox="0 0 24 24">
                                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            Implemented lazy loading for product images
+                                            Efficient MongoDB queries
                                         </li>
                                         <li>
                                             <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
                                                 fill="currentColor" viewBox="0 0 24 24">
                                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            Redis caching for frequently accessed data
+                                            Asynchronous API endpoints
                                         </li>
                                         <li>
                                             <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
                                                 fill="currentColor" viewBox="0 0 24 24">
                                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            Database indexing for search optimization
+                                            Lightweight React rendering
                                         </li>
                                         <li>
                                             <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
                                                 fill="currentColor" viewBox="0 0 24 24">
                                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            Code splitting and bundle optimization
+                                            Scalable file uploads
                                         </li>
                                     </ul>
                                 </div>
@@ -167,28 +173,28 @@
                                                 fill="currentColor" viewBox="0 0 24 24">
                                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            JWT authentication with refresh tokens
+                                            JWT-based user authentication
                                         </li>
                                         <li>
                                             <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
                                                 fill="currentColor" viewBox="0 0 24 24">
                                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            Input validation and sanitization
+                                            Input data sanitization
                                         </li>
                                         <li>
                                             <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
                                                 fill="currentColor" viewBox="0 0 24 24">
                                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            Rate limiting and DDoS protection
+                                            Protected route access
                                         </li>
                                         <li>
                                             <svg class="w-0.5rem h-0.5rem" style="color: var(--success);"
                                                 fill="currentColor" viewBox="0 0 24 24">
                                                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                            HTTPS enforcement and CORS configuration
+                                           Encrypted session management
                                         </li>
                                     </ul>
                                 </div>
@@ -226,7 +232,7 @@
                                 <!-- FAQ Item 1 -->
                                 <div class="faq-card">
                                     <button class="faq-toggle" data-target="faq-1">
-                                        <h3 class="faq-question">What was the biggest technical challenge you faced?
+                                        <h3 class="faq-question">How did you implement BookHub’s MERN stack and key features?
                                         </h3>
                                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -235,10 +241,16 @@
                                     </button>
                                     <div id="faq-1" class="faq-content">
                                         <p>
-                                            
+                                            We built BookHub using the MERN stack, with MongoDB storing data for books, users, notes, and 
+                                            staff in flexible collections, and Express.js powering RESTful APIs for routes like <code>/api/books</code>, 
+                                            <code>/api/notes</code>, and <code>/api/auth</code> to handle CRUD operations and authentication. React.js, 
+                                            styled with Tailwind CSS, created a dynamic, responsive frontend for features like book browsing, rating, and 
+                                            Notion-like note editing, with components for user profiles and admin dashboards.
                                         </p>
                                         <p>
-                                            
+                                            Key features were implemented using Multer for book and image uploads, Nodemailer for email notifications, 
+                                            and JWT for secure user login, ensuring seamless integration of book downloads, note management, and 
+                                            admin oversight, all accessible via dedicated API endpoints for a smooth user experience.
                                         </p>
                                     </div>
                                 </div>
@@ -246,7 +258,7 @@
                                 <!-- FAQ Item 2 -->
                                 <div class="faq-card">
                                     <button class="faq-toggle" data-target="faq-2">
-                                        <h3 class="faq-question">How did you optimize the application for performance?
+                                        <h3 class="faq-question">What was the biggest challenge in developing BookHub, and how did you solve it?
                                         </h3>
                                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -255,12 +267,18 @@
                                     </button>
                                     <div id="faq-2" class="faq-content">
                                         <p>
-                                            
+                                            The main challenge in BookHub was fixing key space errors in the TipTap editor, which disrupted 
+                                            review comments and Notion-like notes by causing unwanted line breaks or formatting loss due to ProseMirror’s 
+                                            whitespace handling. After exploring GitHub discussions and testing fixes, we implemented a custom sanitization 
+                                            step using <code>editor.commands.setContent(cleanText, false, { preserveWhitespace: "full" })</code> to preserve spaces, 
+                                            ensuring seamless integration with image and emoji nodes.
                                         </p>
                                         <p>
-
-
-
+                                            Storing mixed notes (text, images, emojis, files) in MongoDB was also challenging, as direct string insertion 
+                                            caused corrupted entries. We serialized TipTap’s output to JSON, representing text as paragraphs, images/emojis 
+                                            as custom nodes, and files as links or base64 data, then stored it in MongoDB using Mongoose object-type schemas. 
+                                            Multer handled file uploads, storing paths in JSON nodes, enabling reliable CRUD operations with <code>$elemMatch</code> 
+                                            queries for partial updates.
                                         </p>
                                     </div>
                                 </div>
@@ -268,7 +286,7 @@
                                 <!-- FAQ Item 3 -->
                                 <div class="faq-card">
                                     <button class="faq-toggle" data-target="faq-3">
-                                        <h3 class="faq-question">What did you learn from this project?</h3>
+                                        <h3 class="faq-question">How did you ensure BookHub was scalable and user-friendly for real-world use?</h3>
                                         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M19 9l-7 7-7-7" />
@@ -276,12 +294,15 @@
                                     </button>
                                     <div id="faq-3" class="faq-content">
                                         <p>
-                                            
+                                            To ensure scalability, we designed BookHub with MongoDB’s flexible schema to handle growing datasets, like thousands 
+                                            of books and notes, and optimized Express.js APIs for asynchronous performance to support high user traffic. 
+                                            The platform supports aspiring authors by providing a Notion-like note editor for drafting and publishing novels, 
+                                            with review and rating systems to attract booksellers seeking fresh content, enhancing its real-world utility as a publishing hub.
                                         </p>
                                         <p>
-
-
-
+                                            For user-friendliness, we implemented a single login page with JWT authentication to redirect users to tailored interfaces 
+                                            (user, staff, or admin), used Tailwind CSS for a responsive, intuitive UI, and ensured features like book downloads and 
+                                            note management were accessible and easy to use, making BookHub a practical platform for diverse educational and publishing needs.
                                         </p>
                                     </div>
                                 </div>
