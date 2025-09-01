@@ -747,7 +747,14 @@ em {
   p.lead {
     font-size: 0.9rem;
     width: 98%;
-    padding: 10px;
+    padding: 5px; 
+    text-align: center;
+    margin: 0.25rem 0; 
+  }
+
+  .card p.lead {
+    margin: 0.25rem 0; 
+    padding: 5px; 
   }
 
   .grid {
@@ -798,6 +805,7 @@ em {
   .card {
     width: 100%;
     max-width: 350px;
+    padding: 0.75rem;
   }
 
   .image-container {
@@ -810,6 +818,19 @@ em {
 
   .content p {
     font-size: 0.85rem;
+  }
+
+  p.lead {
+    font-size: 0.85rem;
+    width: 98%;
+    padding: 4px; 
+    text-align: center;
+    margin: 0.2rem 0; 
+  }
+
+  .card p.lead {
+    margin: 0.2rem 0; 
+    padding: 4px;
   }
 }
 
@@ -844,6 +865,19 @@ em {
 
   .card {
     padding: 0.5rem;
+  }
+
+  p.lead {
+    font-size: 0.85rem;
+    width: 98%;
+    padding: 3px; 
+    text-align: center;
+    margin: 0.15rem 0; 
+  }
+
+  .card p.lead {
+    margin: 0.15rem 0; 
+    padding: 3px;
   }
 }
 
