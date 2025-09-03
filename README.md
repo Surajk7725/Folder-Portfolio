@@ -28,7 +28,8 @@ This is my personal portfolio website, a comprehensive showcase of my profession
 ## Acknowledgements
 
 
-Special thanks to the resources and tools that made this project possible. For detailed notes on the vercel.json configuration used in this project, refer to the [Vercel Configuration Notes PDF](https://github.com/user-attachments/files/22073469/Vercel.Portfolio.Notes.pdf).
+Special thanks to the resources and tools that made this project possible. For detailed notes on the vercel.json configuration used in this project, refer to the [Vercel Configuration Notes PDF](https://github.com/user-attachments/files/22114168/Vercel.Portfolio.Notes.pdf).
+
 
 ## Deployment
 
